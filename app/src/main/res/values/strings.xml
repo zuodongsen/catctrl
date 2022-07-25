@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">carctrl</string>
+    <string name="hello_world">扫描中....</string>
+    <string name="action_settings">Settings</string>
+    <string name="forvard">向前</string>
+    <string name="back">向后</string>
+    <string name="left">向左</string>
+    <string name="right">向右</string>
+    <string name="stop">停止</string>
+    <string name="connect">链接</string>
+    <string name="fast">加速</string>
+    <string name="slow">减速</string>
+</resources>

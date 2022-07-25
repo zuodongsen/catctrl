@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.pack2.smartcar1.MainActivity$PlaceholderFragment"
+    tools:ignore="MergeRootFrame">
+
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@id/connect"
+
+        android:layout_alignBottom="@id/connect"
+        android:layout_marginBottom="-300dp"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_alignEnd="@id/stop"
+        android:layout_alignBottom="@id/stop"
+        android:layout_marginEnd="-140dp"
+        android:text="@string/right" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInfo"
+        android:layout_centerHorizontal="true"
+        android:onClick="btn_1Onclick"
+        android:text="@string/connect" />
+
+    <Button
+        android:id="@+id/fast"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="btn_1Onclick"
+        android:text="@string/fast"
+        tools:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/slow"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="btn_1Onclick"
+        android:text="@string/slow" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@id/stop"
+        android:layout_alignBottom="@id/stop"
+        android:layout_marginBottom="-140dp"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/forvard"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/stop"
+        android:layout_alignStart="@id/stop"
+        android:layout_marginBottom="20dp"
+        android:text="@string/forvard" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignEnd="@id/stop"
+        android:layout_alignBottom="@id/stop"
+        android:layout_marginEnd="140dp"
+        android:text="@string/left" />
+
+</RelativeLayout>
